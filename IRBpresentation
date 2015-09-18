@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="http://www.texts.io/">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css"/>
+<link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
+<link rel="stylesheet" media="print" href="http://lab.hakim.se/reveal-js/css/print/pdf.css" />
+<!--[if lt IE 9]>
+<script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+<![endif]-->
+<script src="http://lab.hakim.se/reveal-js/js/reveal.min.js"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section><section class="titleslide slide level1"><h1>2015 - 09 - 11 - RTF Professional Development - IRB</h1></section><section class="slide level2">
+<h1>Why?</h1>
+<ul>
+<li><p>Informed, Rights, Dignity, Privacy</p></li>
+</ul>
+</section><section class="slide level2">
+<h1>Office of Research Support</h1>
+<pre><code>-   Training Requirement (test, modules)
+
+-   Register for HSR training (on site)
+
+-   You get a certification document</code></pre>
+</section><section class="slide level2">
+<h1>Financial Interest Content Training</h1>
+<ul>
+<li><p>Prove you don't get paid to do research</p>
+<ul>
+<li><p>(What about critical research?)</p></li>
+</ul></li>
+</ul>
+</section><section class="slide level2">
+<h1>What requires IRB?</h1>
+<ul>
+<li><p>Why not journalism? What makes research different?</p>
+<ul>
+<li><p>Systematic scientific valid research</p></li>
+<li><p>Generalizable data/results, etc.</p></li>
+<li><p>(Systematic interviewing) - YOU ARE THE INSTRUMENT</p></li>
+</ul></li>
+</ul>
+</section><section class="slide level2">
+<h1>Next steps...</h1>
+<ul>
+<li><p>Training</p></li>
+<li><p>Run research proposal before Review Board</p>
+<ul>
+<li><p>Strover is RTF liaison</p></li>
+<li><p>Write a research proposal</p>
+<ul>
+<li><p>Use form that they expect:</p>
+<ul>
+<li><p>Title and list of investigators</p></li>
+<li><p>goals of the project (WHY - clear RQs)</p></li>
+<li><p>background/significance (references a plus - show you’re familiar with research)</p></li>
+<li><p>Research Method/Design</p>
+<ul>
+<li><p>Describe what you’re doing</p></li>
+</ul></li>
+<li><p>Human Subjects Interaction</p>
+<ul>
+<li><p>Who you’re using?</p></li>
+<li><p>Nature of interactions?</p></li>
+<li><p>recruitment process?</p></li>
+<li><p>payment?</p></li>
+<li><p>obtain consent (they have templates)?</p></li>
+</ul></li>
+<li><p>Research protocol (attached with other “instruments&quot;</p></li>
+<li><p>Privacy and confidentiality (personal info, etc.)</p></li>
+<li><p>Procedures for protecting data (personally identifiable information)</p></li>
+<li><p>Risks</p></li>
+<li><p>Resources</p></li>
+<li><p>Benefits</p></li>
+<li><p>Agencies involved</p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section><section class="slide level2">
+<h1>What about social media?</h1>
+<ul>
+<li><p>They want to know the specifics:</p>
+<ul>
+<li><p>Sites?</p></li>
+<li><p>Types of interactions?</p></li>
+<li><p>Personally identifiable information?</p></li>
+<li><p>Identity yourself and what you’re doing. For informed consent.</p></li>
+</ul></li>
+<li><p>Be open, honest and transparent with IRB about what you’re doing.</p></li>
+<li><p>How do you get informed consent in *~CyBeRsPaCe~*?</p>
+<ul>
+<li><p>Survey - informed consent page?</p>
+<ul>
+<li><p>Affirmative choice to take survey</p></li>
+</ul></li>
+<li><p>For a group?</p>
+<ul>
+<li><p>How did you get in? What is your role/subjects role?</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p></p>
+<div class="references">
+
+</div>
+</section></section>
+</div>
+</div>
+<script>
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({ controls: true, history: true, transition: 'linear' });
+</script>
+</body>
+</html>
