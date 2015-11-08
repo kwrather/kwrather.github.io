@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="http://www.texts.io/">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css"/>
+<link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/sky.css" id="theme">
+<link rel="stylesheet" media="print" href="http://lab.hakim.se/reveal-js/css/print/pdf.css" />
+
+<!-- Code syntax highlighting -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+<script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+
+<!--[if lt IE 9]>
+<script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+<![endif]-->
+<script src="http://lab.hakim.se/reveal-js/js/reveal.min.js"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+  <section class="titleslide slide level1">
+    <h2>Social Network Analysis Workshop</h2>
+    <font color="#bf5700">Richard, Carson, Melissa and Kyle</font>
+  </section>
+  <section>
+    <h2>Why Analyze Social Networks?</h2>
+  </section>
+  <section>
+    <section>
+        <h2>It's about <font color="bf5700">objects</font> <p class="fragment current-visible">and <font color="bf5700">relationships</font>.</p></h2>
+    </section>
+    <section><blockquote cite="https://dhs.stanford.edu/visualization/more-networks/">
+              “The <font color="bf5700">network</font> is not a social network or geographic network or logical network but rather a primitive <font color="bf5700">object</font> capable of and useful for the modeling and analysis of <font color="bf5700">relationships</font> between a wide variety of objects.” <p>- <a href="https://dhs.stanford.edu/visualization/more-networks/" target="blank">Elijah Meeks</a>
+              </blockquote>
+    </section>
+    <section data-markdown>
+        <h2>Relationships like…</h2>
+      <ul>
+      <li>intensity
+      <li>occurrences
+      <li>distance
+      <li>strength/weakness
+      <li>grouping
+      <li>multiple types
+      <li>co-location</ul>
+      </section>
+  </section>
+  <section>
+    <section>
+      <h3>So what can we look at?</h3>
+    </section>
+    <section>
+      Movie characters!<p>
+      <font color="white" size="3"><a href="http://moviegalaxies.com">moviegalaxies.com</a></font>
+      <img src="method1.png"></img>
+    </section>
+    <section>
+      TV characters!<p>
+      <font color="white" size="3"><a href="https://allabouttvseries.wordpress.com">Analyzing TV Series and their Narrative Complexity - Digital Humanities Student Project - Radu, Oesch and Djurica</a></font>
+      <img src="method2.png"></img>
+    </section>
+    <section>
+      Twitter interactions!<p>
+      <font color="white" size="3"><a href="https://blogs.cfainstitute.org/investor/2013/04/15/inside-bloombergs-twitter-a-list-well-at-least-a-fraction-of-it/">Coasta, Len, "Inside Bloomberg's Twitter A-List (Well, At Least a Fraction of it),"<i>Enterprising Investor</i>, CFA Institute</a></font>
+      <img src="method3.png"></img>
+    </section>
+    <section>
+      Academic citations!<p>
+      <font color="white" size="2"><a href="http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1178&context=amcis2008">Kim, Hyunjung and Barnett, George A., "Social Network Analysis Using Author Co-Citation Data" (2008). *AMCIS 2008 Proceedings.* Paper 172.</a></font>
+      <img src="method4.png"></img>
+    </section>
+    <section>
+      Where music gets made!<p>
+      <font color="white" size="2"><a href="http://www.lboro.ac.uk/gawc/rb/rb317.html">Watson, A., "The World According to iTunes: Mapping Urban Networks of Music Production," "Global Networks, 12 (4), (2012), 446-466.</a></font>
+      <img src="method5.jpg"></img>
+    </section>
+  </section>
+<section>
+  <section>
+    <h2>Some SNA tools:</h2><ul>
+    <li><a href="http://nodexl.codeplex.com/">NodeXL</a> <a href="http://www.lisarhody.com/category/social-network-analysis/">(guide)</a></p>
+    <li><a href="http://palladio.designhumanities.org/sample/#/">Palladio</a></p>
+    <li><a href="http://www.casos.cs.cmu.edu/projects/ora/">ORA</a></p>
+    <li><a href="https://sites.google.com/site/ucinetsoftware/home">UCINET</a></p>
+    <li><a href="https://gephi.github.io">Gephi</a></p></ul>
+  </section>
+  <section>
+    <h3>So what are the benefits/drawbacks?</h3>
+  </section>
+</section>
+  <section>
+    <img src="Gephi-logo.png"></img>
+  </section>
+  <section>
+    <h2>Gephi "makes graphs handy"</h2>
+  </section>
+  <section data-background="gephi1.jpg" border="0">
+        <h2>Co-Founders:</h2>
+      Mathieu Bastian and Sebastien Heymann
+  </section>
+  <section>
+    <section>
+    <h2>Some Gephi features:</h2>
+    <ul>
+      <li>Real-time visualization</li>
+      <li>Layout</li>
+      <li>Metrics</li>
+      <li>Dynamic Network Analysis</li>
+      <li>Cartography</li>
+      <li>Clustering and Hierarchical Graphs</li></ul>
+    </section>
+      <section data-background="gephi-clustering.png">
+        <h3><font color="white">Clustering</font></h3>
+      </section>
+      <section data-background="gephi-layout.png">
+        <h3><font color="black">Layout</font></h3>
+      </section>
+      <section data-background="gephi-large.jpg">
+        <h3><font color="black">Large Networks</font></h3>
+      </section></section>
+      <section data-background="lesmis.jpg">
+      </section>
+      <section>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/HkMUlSaH7YE" frameborder="0" allowfullscreen></iframe>
+</section>
+      <section data-background="lesmis4.gif">
+        <h2><font color="ffffff">Use Gephi to find relationships!</font></h2>
+      </section>
+  <section>
+    <font color="black">If you get stuck, we made a video walk-through:</font>
+<iframe src="https://drive.google.com/file/d/0B1PGzAnQ9qruYmZHcDR3ai1TQ0U/preview" width="800" height="600"></iframe>
+<aside class="notes">
+    Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+</aside>
+  </section>
+  <section data-background="lesmis3.gif">
+    <h2><font color="ffffff">and we're here to help!</font></h2>
+  </section>
+  <section data-background="lesmis1.gif">
+    <h2><font color="ffffff">Have fun!</font></h2>
+  </section>
+  <section>
+    <h1>Thanks!</h1>
+  </section>
+</div>
+</div>
+<script>
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({ controls: true, history: true, transition: 'slide'
+
+
+});
+Reveal.configure({ slideNumber: true });
+</script>
+</body>
+</html>
