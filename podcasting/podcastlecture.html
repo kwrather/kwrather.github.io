@@ -9,6 +9,14 @@
 <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css"/>
 <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/night.css" id="theme">
 <link rel="stylesheet" media="print" href="http://lab.hakim.se/reveal-js/css/print/pdf.css" />
+<!-- Printing and PDF exports -->
+<script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
 <!--[if lt IE 9]>
 <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
 <![endif]-->
